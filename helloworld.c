@@ -1,4 +1,6 @@
 /* hash algorithm, as presented in K&R version 2 */
+#include <stdio.h>
+#include <stdlib.h>
 unsigned hash(const char *s) {
   unsigned hashval;
   for (hashval = 0; *s != '\0'; s++)
